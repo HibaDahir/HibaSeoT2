@@ -1,18 +1,23 @@
 .share {
-    border: none;
-    cursor: pointer;
-    width: 44px;
-    height: 44px;
-    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
-    background: #111111;
-    transition: background 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: serif;
 }
+
 .share:hover {
     background: #e0e0e0;
 }
+
+
 .share svg {
     display: block;
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 28px;
 }
